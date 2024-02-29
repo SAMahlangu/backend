@@ -12,7 +12,7 @@ from ultralytics import YOLO
 from embedchain import App
 from scripts.url import get_relevant_url
 
-os.environ["OPENAI_API_KEY"]='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'
+os.environ["OPENAI_API_KEY"]=''
 
 app = Flask(__name__)
 CORS(app)
